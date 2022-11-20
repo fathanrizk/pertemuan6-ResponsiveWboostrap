@@ -1,0 +1,286 @@
+/* h1{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 50px;
+} */
+
+/* @media only screen and (max-width: 1200px) {
+    .space-lg{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-container{
+        width: 100%;
+        height: 930px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        color: green;
+        font-size: 20px;
+    }
+} */
+
+a,span,p,h1, label, small,input, button,h2,h6{
+    font-family: 'Rubik', sans-serif;
+}
+
+.bg{
+    background-color: #212529;
+}
+
+/* .bg img{
+    margin-right: 10px;
+} */
+
+.bg a{
+    color: white;
+}
+
+.bg li {
+    color: white;
+}
+
+.bg span{
+    color: white;
+    padding: 0px 10px;
+}
+
+.bg a:hover{
+    color: #ced4da;
+}
+
+.container-nav{
+    width: 100%;
+}
+
+.dropdown-menu a {
+    color: black
+}
+
+.dropdown-item span{
+    color:black
+}
+
+.position-fixed{
+    z-index: 1020;
+    width: 100%;
+}
+
+
+section{
+    /* position: relative; */
+}
+
+.bg-image {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.main-container{
+    width: 100%;
+    position: relative;
+    height: 800px;
+}
+
+h1{
+    color: white;
+}
+
+.container-menu-1{
+    position: absolute;
+    padding: 7.5rem 0;
+    width: 100%;
+}
+
+.display-3{
+    margin-bottom: 1.5rem;
+}
+
+.lead {
+    margin-bottom: 1.5rem;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+.form-group label {
+    color: #343a40;
+    font-size: 0.875em;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s
+}
+
+.form-control, .form-control-lg {
+    padding-left: 0.75rem;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    /* padding-left: 1.5rem; */
+    margin-bottom: 0.5rem;
+}
+
+.btn-lg{
+    font-size: 1rem;
+    padding: 0.6875rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #02B875;
+    border-color: #02B875;
+}
+
+.intro-container {
+    padding: 80px 0;
+}
+
+.intro-title {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #adb5bd;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.intro-display{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.intro-display-2{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #495057;
+}
+
+.section-intro{
+    margin-bottom: 3rem;
+}
+
+.intro-image-video{
+    position: relative;
+}
+
+.intro-image-video img {
+    height: fit-content;
+    width: 100%;
+}
+
+.button-play-video{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-play-video-bg{
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-play-icon{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+}
+
+.intro-image .video-play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    margin-top: -36px;
+    margin-left: -36px;
+    margin-bottom: 0 !important;
+}
+
+.h6-text{
+    margin: 0 0 12px;
+    color: #343a40;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+
+    /* font-weight: 400; */
+}
+
+
